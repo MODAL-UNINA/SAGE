@@ -1,0 +1,18 @@
+name: sage
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - ipywidgets=8.1.2
+  - matplotlib=3.8.2
+  - notebook=7.1.0
+  - pip=23.1.2
+  - python=3.10
+  - pytorch=2.1
+  - scipy=1.7.3
+  - torchvision=0.16.2
+  - tqdm=4.66.2
+  - pulp
+prefix: /home/predicts-workbench/miniconda3/envs/sage
