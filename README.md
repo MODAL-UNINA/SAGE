@@ -54,9 +54,9 @@ The following parameters can be set when executing `main.py` to customize the tr
 
 
 ### 2. Execution
-To start training, first move into the `Script` directory: 
+To start training, first move into the `Scripts` directory: 
 ```bash
-cd Script
+cd Scripts
 ```
 Then run the `main.py` script with the desired configuration. For example if you want to run a training session with the SAGE algorithm and with a Dirichlet parameter equal to 0.1, you can use the following command:
 
