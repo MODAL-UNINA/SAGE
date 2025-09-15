@@ -54,7 +54,11 @@ The following parameters can be set when executing `main.py` to customize the tr
 
 
 ### 2. Execution
-To start training, run the `main.py` script with the desired configuration. For example if you want to run a training session with the SAGE algorithm and with a Dirichlet parameter equal to 0.1, you can use the following command:
+To start training, first move into the `Script` directory: 
+```bash
+cd Script
+```
+Then run the `main.py` script with the desired configuration. For example if you want to run a training session with the SAGE algorithm and with a Dirichlet parameter equal to 0.1, you can use the following command:
 
 ```bash
 python main.py --epochs 1500 --num_users 50 --frac 0.2 --local_ep 5 --bs 128 --local_bs 1024 --lr 0.01 --momentum 0.5 --algorithm SAGE --Dirichlet_arg 0.1 --a 0.5 --b 0.3 --c 0.2 --k 2 --max_energy 15.0 
