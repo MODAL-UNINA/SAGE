@@ -59,4 +59,11 @@ To start training, run the `main.py` script with the desired configuration. For 
 ```bash
 python main.py --epochs 1500 --num_users 50 --frac 0.2 --local_ep 5 --bs 128 --local_bs 1024 --lr 0.01 --momentum 0.5 --algorithm SAGE --Dirichlet_arg 0.1 --a 0.5 --b 0.3 --c 0.2 --k 2 --max_energy 15.0 
 ``` 
+## Acknowledgments
 
+This work was supported by:  
+
+- **PNRR project FAIR - Future AI Research (PE00000013), Spoke 3**, under the NRRP MUR program funded by the NextGenerationEU.  
+
+- **G.A.N.D.A.L.F. - GAN Approaches for Non-iid Aiding Learning in Federations**, CUP: E53D23008290006,  
+  PNRR - Mission 4 *"Education and Research"* - Component C2, Investment 1.1 *"Fund for the National Research Program and Projects of Significant National Interest (PRIN)"*.
