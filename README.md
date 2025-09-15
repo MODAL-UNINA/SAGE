@@ -26,7 +26,7 @@ conda activate sage
 ```
 
 ## FL Training
-This section describes how to configure and run trainings experiments with **SAGE**
+This section describes how to configure and run training experiments with **SAGE**
 
 ### 1. Configuration
 The following parameters can be set when executing `main.py` to customize the training process:
